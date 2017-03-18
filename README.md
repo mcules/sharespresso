@@ -30,7 +30,7 @@ The differences compared to the original in short:
 - a bunch of other small fixes and changes
 - add sketch to setup Bluetooth dongle
 
-You can find some more information in German at: 
+You can find some more information in German at:
 http://heise.de/-3058350
 
 A reference for several included tools can be found here:
@@ -38,23 +38,32 @@ https://github.com/oliverk71/Coffeemaker-Payment-System
 
 We've used the software with two different coffemakers: x95 and
 x7. The pinout we are using:
-    
+
 Jura 9-pin RS232 interface (e.g. Jura X7)
 
-pin 1 - TX   
-pin 2 - GND    
-pin 3 - RX   
+pin 1 - TX
+pin 2 - GND
+pin 3 - RX
 pin 4 - +5v (never tried this pin)
-pin 5 - not used   
-pin 6 - not used  
-pin 7 - not used   
-pin 8 - not used  
-pin 9 - not used  
+pin 5 - not used
+pin 6 - not used
+pin 7 - not used
+pin 8 - not used
+pin 9 - not used
 
-Jura 4-pin interface (e.g. Jura Impressa S95):   
-     
-(from left to right)    
+Jura 4-pin interface (e.g. Jura Impressa S95):
+
+(from left to right)
 pin 4 - +5V
-pin 3 - RX  
-pin 2 - GND  
-pin 1 - TX  
+pin 3 - RX
+pin 2 - GND
+pin 1 - TX
+
+Jura 7-pin interface (e.g. Jura WE8)
+pin 1 - nc
+pin 2 - TxD
+pin 3 - GND
+pin 4 - RxD
+pin 5 - nc
+pin 6 - +5V
+pin 7 - nc
